@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网易新闻卡片</title>
+    <style>
+        .card {
+            width: 300px;
+            margin: 0 auto;
+            border: 1px solid #666;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 5px 5px 5px #666;
+        }
+        .card img {
+            width: 300px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .card h3 {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 8px;
+            position: relative;
+            padding: 12px;
+        }
+        .card h3::before {
+            content: "";
+            position: absolute;
+            width: 3px;
+            height: 18px;
+            background-color: #b01e1e;
+            top: 16px;
+            left: 0;
+        }
+        .card p {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.6;
+            text-indent: 2em;
+            position: relative;
+            padding-bottom: 8px;
+        }
+        .card p::after {
+            content: "";
+            width: 100%;
+            height: 2px;
+            background-color: #ffd700;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+        }
+        .card a {
+            font-size: 13px #de2626;
+            text-decoration: none;
+            display: block;
+            text-align: right;
+            
+        }
+        .card a:hover {
+            text-decoration: underline;
+            color: #b01e1e;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <div class="card">
+        <img src="../images/R-C.jpg" >
+        <h3>国乒出了个孙颖莎</h3>
+        <p>那年19，胆比天高，一夜后，天下谁人不识君！
+        自此开启属于孙颖莎的时代。</p>
+        <a href="../第二天/体育.html">阅读全文</a>
+    </div>
+</body>
+</html>
