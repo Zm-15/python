@@ -1,0 +1,16 @@
+ /* 单伪元素 */
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+      /* 双伪元素 */
+        .clearfix::before,
+        .clearfix::after {
+            content: "";
+            display: table;
+        }
+        /* after 清除浮动 */
+        .clearfix::after {
+            clear: both;
+        }

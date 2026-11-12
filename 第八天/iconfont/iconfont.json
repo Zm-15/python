@@ -1,0 +1,16 @@
+{
+  "id": "5252333",
+  "name": "tu'ku",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "48390987",
+      "name": "050_喜欢",
+      "font_class": "a-050_xihuan",
+      "unicode": "e6da",
+      "unicode_decimal": 59098
+    }
+  ]
+}
